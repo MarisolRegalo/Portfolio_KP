@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Professional portfolio of Katherine Marisol Pérez Regalo — projects, skills, education and certifications.">
+<title>Katherine Pérez | Professional Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+ <div class="container nav">
+  <a class="brand" href="#home"><span class="brand-mark">KP</span><span>Katherine Pérez</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  <nav class="nav-links" id="navLinks">
+   <a href="#about">About</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+ </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-banner" id="heroBanner"></div>
+ <div class="container"><div class="hero-layout">
+  <div class="hero-inner">
+   <div class="eyebrow">Academic &amp; Technology Portfolio</div>
+   <h1>Katherine Marisol<br><span>Pérez Regalo</span></h1>
+   <p class="headline">International Trade Enthusiast · Technology &amp; Innovation Projects · Digital Design &amp; Leadership</p>
+   <p class="hero-copy">General high school student with a strong interest in international trade. I have participated in technology and innovation projects, developing leadership, teamwork, and digital skills. I also have an intermediate level of English.</p>
+   <div class="actions"><a class="btn primary" href="#projects">Explore my projects ↗</a><a class="btn secondary" href="#contact">Get in touch</a></div>
+   <div class="hero-rule"></div>
+  </div>
+  <div class="avatar-wrap">
+   <!-- Se eliminó el botón de carga, ahora solo muestra la foto si existe -->
+   <div class="avatar" id="avatar"><span>KP</span></div>
+  </div>
+ </div></div>
+</section>
+
+<section id="about">
+ <div class="container">
+  <div class="section-head"><div><div class="eyebrow">Profile</div><h2>About me</h2></div></div>
+  <div class="about-grid">
+   <article class="panel soft"><h3>Professional profile</h3><p>I am a student interested in international trade, technology, and innovation. I enjoy taking part in projects where I can contribute ideas, collaborate with others, and develop useful solutions. I consider responsibility, resilience, and a willingness to learn essential to my personal and academic growth.</p></article>
+   <article class="panel">
+    <div class="edu-item"><div class="edu-icon">01</div><div><h3>Academic education</h3><p>General High School Diploma</p><small>Complejo Educativo René Toruño Steiner</small></div></div>
+    <div class="edu-item"><div class="edu-icon">02</div><div><h3>Additional education</h3><p>¡Supérate! Program — Hilasal</p><small>Three-year program focused on English, IT, and values</small></div></div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="projects-section" id="projects">
+ <div class="container">
+  <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Featured projects</h2></div></div>
+  <div class="project-grid" id="projectGrid"></div>
+ </div>
+</section>
+
+<section id="certifications">
+ <div class="container">
+  <div class="section-head"><div><div class="eyebrow">Credentials</div><h2>Certifications</h2></div></div>
+  <div class="cert-grid" id="certGrid"></div>
+ </div>
+</section>
+
+<section id="skills">
+ <div class="container">
+  <div class="section-head"><div><div class="eyebrow">Capabilities</div><h2>Skills &amp; languages</h2></div></div>
+  <div class="skills-grid">
+   <article class="skill-card"><h3>Soft skills</h3><div class="pills"><span>Leadership</span><span>Responsibility</span><span>Active listening</span><span>Self-confidence</span><span>Teamwork</span><span>Empathy</span><span>Resilience</span></div></article>
+   <article class="skill-card"><h3>Technical skills</h3><div class="pills"><span>Power BI · Intermediate</span><span>Canva · Advanced</span><span>Figma · Basic</span><span>HTML</span><span>Python</span><span>JavaScript</span></div></article>
+   <article class="skill-card"><h3>Languages</h3><div class="lang-row"><span>Spanish</span><strong>Native</strong></div><div class="lang-row"><span>English</span><strong>B2</strong></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="container">
+  <div class="section-head"><div><div class="eyebrow">Contact</div><h2>Let's connect</h2></div></div>
+  <div class="contact-grid">
+   <div class="contact-card">
+    <a class="contact-item" href="mailto:katherine12regalo@gmail.com"><b>✉</b><span>katherine12regalo@gmail.com</span></a>
+    <a class="contact-item" href="tel:+50360141295"><b>☎</b><span>+503 6014-1295</span></a>
+    <a class="contact-item" href="https://github.com/MarisolRegalo" target="_blank" rel="noopener"><b>GH</b><span>GitHub: MarisolRegalo</span></a>
+    <a class="contact-item" href="https://www.linkedin.com/in/katherine-pérez-b9069542b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">
+  <b>in</b><span>LinkedIn: Katherine Pérez</span>
+</a>
+   </div>
+   <div class="contact-card"><h3 style="margin:0 0 8px">Thank you for visiting</h3><p class="contact-note">This portfolio brings together a selection of my academic background, skills, certifications, and technology projects. I look forward to continuing to learn and create.</p><a class="btn" style="background:white;color:var(--navy);margin-top:12px" href="mailto:katherine12regalo@gmail.com">Send an email ↗</a></div>
+  </div>
+ </div>
+</section>
+</main>
+<footer><div class="container"><span>© <span id="year"></span> Katherine Marisol Pérez Regalo</span></div></footer>
+
+<div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal-box">
+  <button class="close" id="closeModal" aria-label="Close">×</button>
+  <div class="eyebrow" id="modalMeta">Project</div><h2 id="modalTitle"></h2>
+  <p class="modal-description" id="modalDescription"></p>
+  <div class="modal-info" id="modalInfo"></div>
+  <h3 class="media-title" id="mediaTitle">Project gallery</h3><div class="media-grid" id="modalMedia"></div>
+ 
+ </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

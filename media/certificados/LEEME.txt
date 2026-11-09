@@ -1,0 +1,7 @@
+Certificados en PDF.
+
+Ya incluidos: N8n, Advanced English C1, Marca personal (Platzi), Derechos humanos y La verdad sobre las drogas (Empower El Salvador).
+
+Pendientes: Microsoft Excel, Microsoft Excel Expert y Seminario de valores.
+Guardalos aqui y pon la ruta en el campo image de script.js, por ejemplo:
+  image:"media/certificados/seminario-de-valores.pdf"

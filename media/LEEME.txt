@@ -1,0 +1,20 @@
+CARPETA MEDIA
+=============
+media/
+  perfil.jpg            -> tu foto de perfil
+  banner.jpg            -> tu banner (fondo del encabezado)
+  bienestar365/         -> logo.png + fotos y videos del proyecto
+  nouva/
+  loqalli/
+  pipo/
+  sagas-store/
+  certificados/         -> PDFs de tus certificados
+
+(Si tus archivos tienen otro nombre o son .png, cambia las rutas
+PROFILE_PHOTO y BANNER_PHOTO al inicio de script.js.)
+
+Dentro de cada carpeta de proyecto hay un LEEME.txt con un ejemplo
+de como agregar fotos y videos en script.js.
+
+Para ver los cambios: abre index.html en el navegador
+(o usa la extension "Live Server" en Visual Studio Code).

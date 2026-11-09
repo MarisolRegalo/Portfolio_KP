@@ -1,0 +1,9 @@
+Carpeta del proyecto sagas-store
+
+Guarda aqui:
+  logo.jpg         -> el logo del proyecto (se ve en la tarjeta)
+  tus fotos y videos -> por ejemplo captura1.jpg, demo.mp4
+
+Luego agregalos en script.js, dentro de media:[] de este proyecto:
+  { type:"image", src:"media/sagas-store/captura1.jpg", alt:"Descripcion" },
+  { type:"video", src:"media/sagas-store/demo.mp4" }
